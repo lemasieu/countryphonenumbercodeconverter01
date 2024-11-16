@@ -1,0 +1,25 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chuyển đổi mã điện thoại các quốc gia</title>
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Chuyển đổi mã điện thoại các quốc gia</h1>
+        <label for="country">Tên quốc gia/ lãnh thổ:</label>
+        <select id="country">
+            <option value="">Tên quốc gia/ lãnh thổ</option>
+        </select>
+        <label for="phoneCode">Các chữ số đầu số điện thoại:</label>
+        <input type="text" id="phoneCode" placeholder="Thử +wxyz > +wxy > +wx > +w đến khi thấy kết quả">
+        * Nhập 4 chữ số đầu của số điện thoại rồi xóa từng chữ số bên phải đến khi hiển thị kết quả. Lưu ý: nếu số điện thoại bắt đầu bằng '00' thì thay bằng '+'.
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
